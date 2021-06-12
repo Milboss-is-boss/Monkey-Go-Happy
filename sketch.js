@@ -52,7 +52,7 @@ background(255);
   
   if(obstacleGroup.isTouching(monkey)){
     monkey.velocityX = 0;
-    group.velocityX = 0;
+    ground.velocityX = 0;
     obstacleGroup.setVelocityXEach(0)
     foodGroup.setVelocityXEach(0)
     obstacleGroup.setLifetimeEach(-1)
